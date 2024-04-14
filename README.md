@@ -32,8 +32,9 @@ python concatenated_classifier.py
 ```
 
 ## Models and Training
-- Supervised Learning Model: A Vision Transformer (ViT) model fine-tuned for brain tumor classification. Through experimentation, we fine-tune supervised learning model parameters, evaluate performance metrics, and validate results to achieve optimal task performance.
+- Supervised Learning Model: Through experimentation, we fine-tune supervised learning model parameters, evaluate performance metrics, and validate results to achieve optimal task performance.
 - Unsupervised Learning Model: A Generative Adversarial Network (GAN) used to generate additional synthetic images to augment the training data for the supervised model.
+- Vision Transformer Model: A Vision Transformer (ViT) model fine-tuned for brain tumor classification. This model leverages pre-trained weights and has been adapted specifically to handle the nuances of MRI brain scans.
 
 ## Contributors
 
